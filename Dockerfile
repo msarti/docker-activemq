@@ -20,7 +20,7 @@ EXPOSE 6155 6156 61616 61617 1099 8161 61613
 
 VOLUME [ "/sys/fs/cgroup" ]
 
-CMD ["/usr/sbin/init"]
+CMD ["/opt/activemq/bin/activemq","console"]
 
 
 
